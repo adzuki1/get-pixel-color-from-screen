@@ -17,7 +17,7 @@ vector<int> getCursor(){
         cerr << "Unable to open display." << endl;
         return {0,0};
     }
-
+ 
     Window root = DefaultRootWindow(display);
     XEvent event;
 
